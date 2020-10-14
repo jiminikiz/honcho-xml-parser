@@ -1,0 +1,27 @@
+{
+  "name": "honcho-xml-parser",
+  "version": "1.0.0",
+  "description": "A simple script that parses XML files into JSON and pseudo persists the supplied data.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiminikiz/honcho-xml-parser.git"
+  },
+  "keywords": [
+    "xml",
+    "json"
+  ],
+  "author": "jiminikiz",
+  "bugs": {
+    "url": "https://github.com/jiminikiz/honcho-xml-parser/issues"
+  },
+  "homepage": "https://github.com/jiminikiz/honcho-xml-parser#readme",
+  "dependencies": {
+    "xml-stream": "^0.4.5",
+    "xml-to-json-stream": "^1.1.0"
+  }
+}
